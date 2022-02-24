@@ -1,0 +1,648 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <title></title>
+   <!-- Bootstrap core CSS -->
+<link href="css/bootstrap.min.css" rel="stylesheet" >
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet"> 
+    <!-- Custom styles for this template -->
+    <link href="style.css" rel="stylesheet">
+  </head>
+  <body>
+    
+
+
+<div class="container">
+  <header>
+   <nav class="navbar navbar-expand-lg navbar-light bg-light p-0" aria-label="Eleventh navbar example">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="59" height="16" viewBox="0 0 59 16" fill="none">
+<path d="M20.4025 12.7458L23.5465 10.5763C24.4161 11.5932 25.6202 12.2712 26.958 12.2712C27.7607 12.2712 28.5635 12 29.2324 11.5254C29.9013 10.9831 30.3696 10.3051 30.5703 9.49153H25.4195V6.37289H30.4365C30.1689 5.62713 29.7007 5.01696 29.0986 4.54238C28.4966 4.0678 27.6939 3.86442 26.8911 3.86442C25.6202 3.86442 24.4161 4.40679 23.5465 5.35594L20.67 2.91526C22.1417 1.01696 24.483 -0.0677876 26.8911 8.9845e-06C28.0283 8.9845e-06 29.0986 0.203399 30.102 0.610178C31.0385 1.01696 31.975 1.55933 32.7109 2.30509C34.1825 3.79662 35.0521 5.83052 35.0521 8.00001C35.0521 9.42374 34.7177 10.8475 33.9818 12.1356C33.3129 13.3559 32.3095 14.3051 31.1054 14.9831C29.9013 15.661 28.4966 16.0678 27.0918 16C25.7539 16.0678 24.4161 15.7288 23.212 15.1864C22.0748 14.5763 21.1383 13.7627 20.4025 12.7458Z" fill="#101025"></path>
+<path d="M37.3934 15.6608V0.270996H41.6746V11.8642H46.0896V0.270996H50.3708V11.8642H54.7857V0.270996H59.0669V15.593H37.3934V15.6608Z" fill="#101025"></path>
+<path d="M12.9104 0.270996L8.89683 6.2371L4.95011 0.270996H0V15.6608H4.54875V6.91506L7.1576 10.5083L7.89342 11.593H9.83333L10.5692 10.5083L13.178 6.84727V15.6608H17.8605V0.270996H12.9104Z" fill="#101025"></path>
+</svg></a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarsExample09" aria-controls="navbarsExample09" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarsExample09">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#"> <svg xmlns="http://www.w3.org/2000/svg" width="12" height="16" viewBox="0 0 12 16" fill="none">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M6.22929 11.5302C5.99604 11.402 5.71404 11.4043 5.48679 11.54L2.67579 13.19L3.77679 8.9075C4.43304 9.2825 5.19129 9.5 5.99979 9.5C6.80829 9.5 7.56654 9.2825 8.22354 8.9075L9.34029 13.2515L6.22929 11.5302ZM5.99979 2C7.65429 2 8.99979 3.3455 8.99979 5C8.99979 6.6545 7.65429 8 5.99979 8C4.34529 8 2.99979 6.6545 2.99979 5C2.99979 3.3455 4.34529 2 5.99979 2ZM11.2265 14.5632L9.49479 7.829C10.1218 7.055 10.4998 6.07175 10.4998 5C10.4998 2.51825 8.48154 0.5 5.99979 0.5C3.51879 0.5 1.49979 2.51825 1.49979 5C1.49979 6.07175 1.87779 7.055 2.50479 7.829L0.773787 14.5632C0.698037 14.8572 0.806787 15.167 1.04904 15.3492C1.29054 15.5315 1.61904 15.548 1.87929 15.3965L5.87679 13.0497L10.1368 15.4062C10.25 15.4692 10.3753 15.5 10.4998 15.5C10.6625 15.5 10.8245 15.4475 10.9595 15.3433C11.1958 15.1603 11.3015 14.8535 11.2265 14.5632Z" fill="#53546E"/>
+</svg> Дневник</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#"> <svg xmlns="http://www.w3.org/2000/svg" width="12" height="16" viewBox="0 0 12 16" fill="none">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M6.22929 11.5302C5.99604 11.402 5.71404 11.4043 5.48679 11.54L2.67579 13.19L3.77679 8.9075C4.43304 9.2825 5.19129 9.5 5.99979 9.5C6.80829 9.5 7.56654 9.2825 8.22354 8.9075L9.34029 13.2515L6.22929 11.5302ZM5.99979 2C7.65429 2 8.99979 3.3455 8.99979 5C8.99979 6.6545 7.65429 8 5.99979 8C4.34529 8 2.99979 6.6545 2.99979 5C2.99979 3.3455 4.34529 2 5.99979 2ZM11.2265 14.5632L9.49479 7.829C10.1218 7.055 10.4998 6.07175 10.4998 5C10.4998 2.51825 8.48154 0.5 5.99979 0.5C3.51879 0.5 1.49979 2.51825 1.49979 5C1.49979 6.07175 1.87779 7.055 2.50479 7.829L0.773787 14.5632C0.698037 14.8572 0.806787 15.167 1.04904 15.3492C1.29054 15.5315 1.61904 15.548 1.87929 15.3965L5.87679 13.0497L10.1368 15.4062C10.25 15.4692 10.3753 15.5 10.4998 15.5C10.6625 15.5 10.8245 15.4475 10.9595 15.3433C11.1958 15.1603 11.3015 14.8535 11.2265 14.5632Z" fill="#53546E"/>
+</svg> Портфолио</a>
+            </li>        
+			<li class="nav-item">
+              <a class="nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="16" viewBox="0 0 12 16" fill="none">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M6.22929 11.5302C5.99604 11.402 5.71404 11.4043 5.48679 11.54L2.67579 13.19L3.77679 8.9075C4.43304 9.2825 5.19129 9.5 5.99979 9.5C6.80829 9.5 7.56654 9.2825 8.22354 8.9075L9.34029 13.2515L6.22929 11.5302ZM5.99979 2C7.65429 2 8.99979 3.3455 8.99979 5C8.99979 6.6545 7.65429 8 5.99979 8C4.34529 8 2.99979 6.6545 2.99979 5C2.99979 3.3455 4.34529 2 5.99979 2ZM11.2265 14.5632L9.49479 7.829C10.1218 7.055 10.4998 6.07175 10.4998 5C10.4998 2.51825 8.48154 0.5 5.99979 0.5C3.51879 0.5 1.49979 2.51825 1.49979 5C1.49979 6.07175 1.87779 7.055 2.50479 7.829L0.773787 14.5632C0.698037 14.8572 0.806787 15.167 1.04904 15.3492C1.29054 15.5315 1.61904 15.548 1.87929 15.3965L5.87679 13.0497L10.1368 15.4062C10.25 15.4692 10.3753 15.5 10.4998 15.5C10.6625 15.5 10.8245 15.4475 10.9595 15.3433C11.1958 15.1603 11.3015 14.8535 11.2265 14.5632Z" fill="#53546E"/>
+</svg> Журнал</a>
+            </li>     
+			<li class="nav-item">
+              <a class="nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="16" viewBox="0 0 12 16" fill="none">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M6.22929 11.5302C5.99604 11.402 5.71404 11.4043 5.48679 11.54L2.67579 13.19L3.77679 8.9075C4.43304 9.2825 5.19129 9.5 5.99979 9.5C6.80829 9.5 7.56654 9.2825 8.22354 8.9075L9.34029 13.2515L6.22929 11.5302ZM5.99979 2C7.65429 2 8.99979 3.3455 8.99979 5C8.99979 6.6545 7.65429 8 5.99979 8C4.34529 8 2.99979 6.6545 2.99979 5C2.99979 3.3455 4.34529 2 5.99979 2ZM11.2265 14.5632L9.49479 7.829C10.1218 7.055 10.4998 6.07175 10.4998 5C10.4998 2.51825 8.48154 0.5 5.99979 0.5C3.51879 0.5 1.49979 2.51825 1.49979 5C1.49979 6.07175 1.87779 7.055 2.50479 7.829L0.773787 14.5632C0.698037 14.8572 0.806787 15.167 1.04904 15.3492C1.29054 15.5315 1.61904 15.548 1.87929 15.3965L5.87679 13.0497L10.1368 15.4062C10.25 15.4692 10.3753 15.5 10.4998 15.5C10.6625 15.5 10.8245 15.4475 10.9595 15.3433C11.1958 15.1603 11.3015 14.8535 11.2265 14.5632Z" fill="#53546E"/>
+</svg> Библиотека</a>
+            </li>
+			
+            <li class="nav-item dropdown">
+              <a class="nav-link dropdown-toggle " href="#" id="dropdown09" data-bs-toggle="dropdown" aria-expanded="true"><svg xmlns="http://www.w3.org/2000/svg" width="12" height="16" viewBox="0 0 12 16" fill="none">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M6.22929 11.5302C5.99604 11.402 5.71404 11.4043 5.48679 11.54L2.67579 13.19L3.77679 8.9075C4.43304 9.2825 5.19129 9.5 5.99979 9.5C6.80829 9.5 7.56654 9.2825 8.22354 8.9075L9.34029 13.2515L6.22929 11.5302ZM5.99979 2C7.65429 2 8.99979 3.3455 8.99979 5C8.99979 6.6545 7.65429 8 5.99979 8C4.34529 8 2.99979 6.6545 2.99979 5C2.99979 3.3455 4.34529 2 5.99979 2ZM11.2265 14.5632L9.49479 7.829C10.1218 7.055 10.4998 6.07175 10.4998 5C10.4998 2.51825 8.48154 0.5 5.99979 0.5C3.51879 0.5 1.49979 2.51825 1.49979 5C1.49979 6.07175 1.87779 7.055 2.50479 7.829L0.773787 14.5632C0.698037 14.8572 0.806787 15.167 1.04904 15.3492C1.29054 15.5315 1.61904 15.548 1.87929 15.3965L5.87679 13.0497L10.1368 15.4062C10.25 15.4692 10.3753 15.5 10.4998 15.5C10.6625 15.5 10.8245 15.4475 10.9595 15.3433C11.1958 15.1603 11.3015 14.8535 11.2265 14.5632Z" fill="#53546E"/>
+</svg> Все сервисы</a>
+              <ul class="dropdown-menu " aria-labelledby="dropdown09" data-bs-popper="none">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+			</ul>
+		  <ul class="navbar-nav ml-auto mb-2 mb-lg-0"> 
+            <li class="nav-item dropdown ml-auto">
+              <a class="nav-link dropdown-toggle " href="#" id="dropdown01" data-bs-toggle="dropdown" aria-expanded="true">
+			  <svg xmlns="http://www.w3.org/2000/svg" class="mr-2" width="24" height="24" viewBox="0 0 24 24" fill="none">
+<rect width="24" height="24" rx="12" fill="#FA5252" fill-opacity="0.8"/>
+<path d="M5.84632 16V8.72727H8.879C9.4235 8.72727 9.87923 8.80421 10.2462 8.9581C10.6155 9.11198 10.8925 9.32741 11.0771 9.6044C11.2642 9.88139 11.3577 10.2022 11.3577 10.5668C11.3577 10.8438 11.2997 11.0911 11.1837 11.3089C11.0677 11.5244 10.9079 11.7031 10.7043 11.8452C10.5007 11.9872 10.2651 12.0866 9.9976 12.1435V12.2145C10.2912 12.2287 10.5622 12.308 10.8108 12.4524C11.0618 12.5968 11.263 12.7981 11.4145 13.0561C11.566 13.3118 11.6418 13.6148 11.6418 13.9652C11.6418 14.3558 11.5423 14.705 11.3435 15.0128C11.1446 15.3182 10.857 15.5597 10.4806 15.7372C10.1041 15.9124 9.64722 16 9.10982 16H5.84632ZM7.60414 14.5831H8.69078C9.07194 14.5831 9.35248 14.5109 9.5324 14.3665C9.7147 14.2221 9.80584 14.0208 9.80584 13.7628C9.80584 13.5758 9.76204 13.4148 9.67445 13.2798C9.58686 13.1425 9.46257 13.0372 9.30158 12.9638C9.1406 12.888 8.94765 12.8501 8.72275 12.8501H7.60414V14.5831ZM7.60414 11.7173H8.57715C8.76891 11.7173 8.93936 11.6854 9.08851 11.6214C9.23766 11.5575 9.35366 11.4652 9.43652 11.3445C9.52175 11.2237 9.56436 11.0781 9.56436 10.9077C9.56436 10.6638 9.47795 10.4721 9.30513 10.3324C9.13231 10.1927 8.89912 10.1229 8.60556 10.1229H7.60414V11.7173ZM13.249 10.1548V8.72727H19.396V10.1548H17.1908V16H15.4578V10.1548H13.249Z" fill="white"/>
+			  </svg> Валентина  <span class="badge bg-secondary mx-3">учитель</span></a>
+              <ul class="dropdown-menu " aria-labelledby="dropdown01" data-bs-popper="none">
+                <li><a class="dropdown-item" href="#">Action</a></li>
+                <li><a class="dropdown-item" href="#">Another action</a></li>
+                <li><a class="dropdown-item" href="#">Something else here</a></li>
+              </ul>
+            </li>
+		  </ul>
+        </div>
+      </div>
+    </nav> 
+	  <nav class="navbar navbar-expand-lg navbar-light bg-light rounded" aria-label="Eleventh navbar example">
+      <div class="container-fluid">
+        <a class="navbar-brand" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="40" height="40" viewBox="0 0 40 40" fill="none">
+<path d="M0 10C0 4.47715 4.47715 0 10 0H30C35.5228 0 40 4.47715 40 10V30C40 35.5228 35.5228 40 30 40H10C4.47715 40 0 35.5228 0 30V10Z" fill="#BE4BDB" fill-opacity="0.08"/>
+<path opacity="0.8" d="M19.3763 19.5223L8.84321 24.8029C7.8856 25.2832 7.8856 26.5923 8.84321 27.072L19.3763 32.3532C19.7667 32.5489 20.2333 32.5489 20.6237 32.3532L31.1568 27.072C32.1144 26.5917 32.1144 25.2826 31.1568 24.8029L20.6237 19.5217C20.2333 19.326 19.7667 19.326 19.3763 19.5223Z" fill="url(#paint0_linear_2824_13357)"/>
+<path opacity="0.8" d="M19.38 13.3225L8.91001 18.8187C7.95814 19.3187 7.95814 20.6812 8.91001 21.1806L19.38 26.6775C19.7681 26.8812 20.2319 26.8812 20.62 26.6775L31.09 21.1806C32.0419 20.6806 32.0419 19.3181 31.09 18.8187L20.62 13.3219C20.2319 13.1181 19.7681 13.1181 19.38 13.3225Z" fill="url(#paint1_linear_2824_13357)"/>
+<path opacity="0.8" d="M19.38 7.65312L8.91001 13.1494C7.95814 13.6494 7.95814 15.0119 8.91001 15.5113L19.38 21.0081C19.7681 21.2119 20.2319 21.2119 20.62 21.0081L31.09 15.5113C32.0419 15.0113 32.0419 13.6487 31.09 13.1494L20.62 7.65312C20.2319 7.44875 19.7681 7.44875 19.38 7.65312Z" fill="url(#paint2_linear_2824_13357)"/>
+<defs>
+<linearGradient id="paint0_linear_2824_13357" x1="12.0109" y1="18.8954" x2="31.2037" y2="37.446" gradientUnits="userSpaceOnUse">
+<stop stop-color="#A32ED0"/>
+<stop offset="1" stop-color="#49145D"/>
+</linearGradient>
+<linearGradient id="paint1_linear_2824_13357" x1="12.0588" y1="12.6699" x2="31.9832" y2="31.0612" gradientUnits="userSpaceOnUse">
+<stop stop-color="#BB61DC"/>
+<stop offset="1" stop-color="#621B7C"/>
+</linearGradient>
+<linearGradient id="paint2_linear_2824_13357" x1="12.0588" y1="7.00062" x2="31.9831" y2="25.3919" gradientUnits="userSpaceOnUse">
+<stop stop-color="#E5C0F2"/>
+<stop offset="1" stop-color="#7A229B"/>
+</linearGradient>
+</defs>
+</svg> Справка</a>
+        <div class="collapse navbar-collapse" id="navbarsExample09">
+          <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+            <li class="nav-item">
+              <a class="nav-link" aria-current="page" href="#">Инструкции</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Видео</a>
+            </li>        
+			<li class="nav-item">
+              <a class="nav-link" href="#">Вопросы</a>
+            </li>     
+			<li class="nav-item">
+              <a class="nav-link" href="#">Новости</a>
+            </li>			
+            <li class="nav-item ">
+              <a class="nav-link " href="#">Документы</a>              
+            </li>
+			</ul>
+		  <ul class="navbar-nav ml-auto mb-2 mb-lg-0"> 
+          <li class="nav-item">
+              <a class="nav-link me-3" href="#"><svg xmlns="http://www.w3.org/2000/svg"  width="18" height="18" viewBox="0 0 18 18" fill="none">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M2 8C2 4.691 4.691 2 8 2C11.309 2 14 4.691 14 8C14 11.309 11.309 14 8 14C4.691 14 2 11.309 2 8ZM17.707 16.293L14.312 12.897C15.365 11.543 16 9.846 16 8C16 3.589 12.411 0 8 0C3.589 0 0 3.589 0 8C0 12.411 3.589 16 8 16C9.846 16 11.543 15.365 12.897 14.312L16.293 17.707C16.488 17.902 16.744 18 17 18C17.256 18 17.512 17.902 17.707 17.707C18.098 17.316 18.098 16.684 17.707 16.293Z" fill="#87879B"/>
+</svg></a>
+            </li>    
+			<li class="nav-item  me-3">
+              <a class="nav-link" href="#"><svg xmlns="http://www.w3.org/2000/svg" width="14" height="18" viewBox="0 0 14 18" fill="none">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M6.82124 12.5059C6.99024 12.5059 7.16024 12.5489 7.31324 12.6349L12.0002 15.2859V2.3339C12.0002 2.1329 11.8792 1.9999 11.8002 1.9999H2.20024C2.12024 1.9999 2.00024 2.1329 2.00024 2.3339V15.2339L6.30624 12.6489C6.46524 12.5539 6.64324 12.5059 6.82124 12.5059ZM1.00024 17.9999C0.830244 17.9999 0.660244 17.9569 0.507244 17.8699C0.194244 17.6929 0.000244141 17.3599 0.000244141 16.9999V2.3339C0.000244141 1.0469 0.987244 -9.91821e-05 2.20024 -9.91821e-05H11.8002C13.0132 -9.91821e-05 14.0002 1.0469 14.0002 2.3339V16.9999C14.0002 17.3559 13.8112 17.6849 13.5042 17.8639C13.1962 18.0439 12.8182 18.0469 12.5082 17.8709L6.83624 14.6629L1.51424 17.8579C1.35624 17.9519 1.17824 17.9999 1.00024 17.9999Z" fill="#87879B"/>
+</svg></a>
+            </li>    
+		  </ul>
+        </div>
+      </div>
+    </nav>
+    <div class="pricing-header pt-4 mx-auto">
+      <h1 class="mt-5 mb-4 pb-2" >Добро пожаловать на информационный портал МЭШ</h1>
+      <div class="input-group my-3 bg-white blue-search "> 
+	  <span class="input-group-text bg-white border-0"><svg xmlns="http://www.w3.org/2000/svg" width="16" height="16" viewBox="0 0 16 16" fill="none">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M2.16667 7.16667C2.16667 4.40917 4.40917 2.16667 7.16667 2.16667C9.92417 2.16667 12.1667 4.40917 12.1667 7.16667C12.1667 9.92417 9.92417 12.1667 7.16667 12.1667C4.40917 12.1667 2.16667 9.92417 2.16667 7.16667ZM15.2558 14.0775L12.4267 11.2475C13.3042 10.1192 13.8333 8.705 13.8333 7.16667C13.8333 3.49083 10.8425 0.5 7.16667 0.5C3.49083 0.5 0.5 3.49083 0.5 7.16667C0.5 10.8425 3.49083 13.8333 7.16667 13.8333C8.705 13.8333 10.1192 13.3042 11.2475 12.4267L14.0775 15.2558C14.24 15.4183 14.4533 15.5 14.6667 15.5C14.88 15.5 15.0933 15.4183 15.2558 15.2558C15.5817 14.93 15.5817 14.4033 15.2558 14.0775Z" fill="#AEAEBC"/>
+</svg></span>
+  <input type="text" class="form-control  border-0" placeholder="Что вы ищете?" aria-label="Что вы ищете?" aria-describedby="button-addon2">
+  <button class="btn btn-outline-secondary border-0" type="button">
+<svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M11 19C10.448 19 10 18.552 10 18C10 17.448 10.448 17 11 17C11.552 17 12 17.448 12 18C12 18.552 11.552 19 11 19ZM21 17H13.815C13.401 15.839 12.302 15 11 15C9.698 15 8.599 15.839 8.185 17H3C2.447 17 2 17.447 2 18C2 18.553 2.447 19 3 19H8.185C8.599 20.161 9.698 21 11 21C12.302 21 13.401 20.161 13.815 19H21C21.553 19 22 18.553 22 18C22 17.447 21.553 17 21 17ZM19 13C18.448 13 18 12.552 18 12C18 11.448 18.448 11 19 11C19.552 11 20 11.448 20 12C20 12.552 19.552 13 19 13ZM19 9C17.698 9 16.599 9.839 16.185 11H3C2.447 11 2 11.447 2 12C2 12.553 2.447 13 3 13H16.185C16.599 14.161 17.698 15 19 15C20.654 15 22 13.654 22 12C22 10.346 20.654 9 19 9ZM7 5C7.552 5 8 5.448 8 6C8 6.552 7.552 7 7 7C6.448 7 6 6.552 6 6C6 5.448 6.448 5 7 5ZM3 7H4.185C4.599 8.161 5.698 9 7 9C8.302 9 9.401 8.161 9.815 7H21C21.553 7 22 6.553 22 6C22 5.447 21.553 5 21 5H9.815C9.401 3.839 8.302 3 7 3C5.698 3 4.599 3.839 4.185 5H3C2.447 5 2 5.447 2 6C2 6.553 2.447 7 3 7Z" fill="#AEAEBC"/>
+</svg>
+</button>
+  <button class="btn btn-primary" type="button">Поиск</button>
+</div>   </div>
+  </header>
+
+  <main>
+    <div class="row row-cols-1 row-cols-md-2 mb-3">
+      <div class="col-6">
+        <div class="card mb-3 rounded-12 ">
+		 <div class="card-body">
+        <div class="d-flex align-items-center">
+  <div class="flex-shrink-0">
+    <img src="img/emoji11.png" alt="...">
+  </div>
+  <div class="flex-grow-1 ms-3">
+   <h5 class="card-title mb-0">Как провести урок на дистанционке?</h5>
+   <p class="text-muted  mb-0">  4 шага для учителя</p>
+  </div>  
+  <div class=" me-auto">
+ <svg xmlns="http://www.w3.org/2000/svg" width="14" height="18" viewBox="0 0 14 18" fill="none">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M6.82124 12.5059C6.99024 12.5059 7.16024 12.5489 7.31324 12.6349L12.0002 15.2859V2.3339C12.0002 2.1329 11.8792 1.9999 11.8002 1.9999H2.20024C2.12024 1.9999 2.00024 2.1329 2.00024 2.3339V15.2339L6.30624 12.6489C6.46524 12.5539 6.64324 12.5059 6.82124 12.5059ZM1.00024 17.9999C0.830244 17.9999 0.660244 17.9569 0.507244 17.8699C0.194244 17.6929 0.000244141 17.3599 0.000244141 16.9999V2.3339C0.000244141 1.0469 0.987244 -9.91821e-05 2.20024 -9.91821e-05H11.8002C13.0132 -9.91821e-05 14.0002 1.0469 14.0002 2.3339V16.9999C14.0002 17.3559 13.8112 17.6849 13.5042 17.8639C13.1962 18.0439 12.8182 18.0469 12.5082 17.8709L6.83624 14.6629L1.51424 17.8579C1.35624 17.9519 1.17824 17.9999 1.00024 17.9999Z" fill="#87879B"/>
+ </svg> <p class="text-muted mb-0">&nbsp;</p>
+  </div>
+</div>
+        </div>
+        </div>
+      </div>
+      <div class="col-6">
+        <div class="card mb-3 rounded-12 ">
+		 <div class="card-body">
+         <div class="d-flex align-items-center">
+  <div class="flex-shrink-0">
+    <img src="img/emoji2.png" alt="...">
+  </div>
+  <div class="flex-grow-1 ms-3">
+      <h5 class="card-title mb-0">Как выдать цифровое домашнее задание?</h5>
+   <p class="text-muted mb-0">1 шаг для учителя</p>
+   </div>
+     <div class=" me-auto">
+ <svg xmlns="http://www.w3.org/2000/svg" width="14" height="18" viewBox="0 0 14 18" fill="none">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M6.82124 12.5059C6.99024 12.5059 7.16024 12.5489 7.31324 12.6349L12.0002 15.2859V2.3339C12.0002 2.1329 11.8792 1.9999 11.8002 1.9999H2.20024C2.12024 1.9999 2.00024 2.1329 2.00024 2.3339V15.2339L6.30624 12.6489C6.46524 12.5539 6.64324 12.5059 6.82124 12.5059ZM1.00024 17.9999C0.830244 17.9999 0.660244 17.9569 0.507244 17.8699C0.194244 17.6929 0.000244141 17.3599 0.000244141 16.9999V2.3339C0.000244141 1.0469 0.987244 -9.91821e-05 2.20024 -9.91821e-05H11.8002C13.0132 -9.91821e-05 14.0002 1.0469 14.0002 2.3339V16.9999C14.0002 17.3559 13.8112 17.6849 13.5042 17.8639C13.1962 18.0439 12.8182 18.0469 12.5082 17.8709L6.83624 14.6629L1.51424 17.8579C1.35624 17.9519 1.17824 17.9999 1.00024 17.9999Z" fill="#87879B"/>
+</svg> <p class="text-muted mb-0">&nbsp;</p>
+  </div>
+</div>
+        </div>
+        </div>
+      </div>
+      <div class="col-6">
+        <div class="card mb-3 rounded-12 ">
+		 <div class="card-body">
+          <div class="d-flex align-items-center">
+  <div class="flex-shrink-0">
+    <img src="img/emoji.png" alt="...">
+  </div>
+  <div class="flex-grow-1 ms-3">
+        <h5 class="card-title mb-0">Школьник перешел на дистанционку</h5>
+   <p class="text-muted mb-0">3 шага для родителя</p>
+   </div>
+     <div class=" me-auto">
+ <svg xmlns="http://www.w3.org/2000/svg" width="14" height="18" viewBox="0 0 14 18" fill="none">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M6.82124 12.5059C6.99024 12.5059 7.16024 12.5489 7.31324 12.6349L12.0002 15.2859V2.3339C12.0002 2.1329 11.8792 1.9999 11.8002 1.9999H2.20024C2.12024 1.9999 2.00024 2.1329 2.00024 2.3339V15.2339L6.30624 12.6489C6.46524 12.5539 6.64324 12.5059 6.82124 12.5059ZM1.00024 17.9999C0.830244 17.9999 0.660244 17.9569 0.507244 17.8699C0.194244 17.6929 0.000244141 17.3599 0.000244141 16.9999V2.3339C0.000244141 1.0469 0.987244 -9.91821e-05 2.20024 -9.91821e-05H11.8002C13.0132 -9.91821e-05 14.0002 1.0469 14.0002 2.3339V16.9999C14.0002 17.3559 13.8112 17.6849 13.5042 17.8639C13.1962 18.0439 12.8182 18.0469 12.5082 17.8709L6.83624 14.6629L1.51424 17.8579C1.35624 17.9519 1.17824 17.9999 1.00024 17.9999Z" fill="#87879B"/>
+</svg> <p class="text-muted mb-0">&nbsp;</p>
+  </div>
+</div>
+        </div>
+        </div>
+      </div>     
+	  <div class="col-6">
+        <div class="card mb-3 rounded-12">
+		 <div class="card-body">
+          <div class="d-flex align-items-center">
+  <div class="flex-shrink-0">
+    <img src="img/emoji3.png" alt="...">
+  </div>
+  <div class="flex-grow-1 ms-3">
+        <h5 class="card-title mb-0">Ребёнок идет в 1 класс</h5>
+   <p class="text-muted mb-0">5 шагов для родителя</p>
+   </div>
+     <div class=" me-auto">
+ <svg xmlns="http://www.w3.org/2000/svg" width="14" height="18" viewBox="0 0 14 18" fill="none">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M6.82124 12.5059C6.99024 12.5059 7.16024 12.5489 7.31324 12.6349L12.0002 15.2859V2.3339C12.0002 2.1329 11.8792 1.9999 11.8002 1.9999H2.20024C2.12024 1.9999 2.00024 2.1329 2.00024 2.3339V15.2339L6.30624 12.6489C6.46524 12.5539 6.64324 12.5059 6.82124 12.5059ZM1.00024 17.9999C0.830244 17.9999 0.660244 17.9569 0.507244 17.8699C0.194244 17.6929 0.000244141 17.3599 0.000244141 16.9999V2.3339C0.000244141 1.0469 0.987244 -9.91821e-05 2.20024 -9.91821e-05H11.8002C13.0132 -9.91821e-05 14.0002 1.0469 14.0002 2.3339V16.9999C14.0002 17.3559 13.8112 17.6849 13.5042 17.8639C13.1962 18.0439 12.8182 18.0469 12.5082 17.8709L6.83624 14.6629L1.51424 17.8579C1.35624 17.9519 1.17824 17.9999 1.00024 17.9999Z" fill="#87879B"/>
+ </svg>   <p class="text-muted mb-0">&nbsp;</p>
+  </div>
+  </div>
+</div>
+        </div>
+        </div>
+      </div>
+	  <section class="actual mb-5">
+    <h2 class=" mb-4">Актуальное <a href="#">См. все</a></h2>
+<div class="row row-cols-1 row-cols-md-8 mb-3">
+   <div class="col-2 mb-3">
+      <div class="border border-primary border-2 rounded-16 p-6 mb-2">    <img src="img/0.png" alt="..."></div>
+      <div class="ps-2">
+         <p class="today mb-1">Сегодня</p>
+         <h6 class="today-title mb-0">Обновление дневника</h6>
+      </div>
+   </div>
+   <div class="col-2 mb-3">
+      <div class="border border-primary border-2 rounded-16 p-6 mb-2">  <img src="img/1.png" alt="..."></div>
+      <div class="ps-2">
+         <p class="today  mb-1">Сегодня</p>
+         <h6 class="today-title mb-0">Что нового в поддержке</h6>
+      </div>
+   </div>
+   <div class="col-2 mb-3">
+      <div class="border border-primary border-2 p-6 rounded-16 mb-2">
+         <img src="img/2.png" alt="...">
+      </div>
+      <div class="ps-2">
+         <p class="today mb-1">Сегодня</p>
+         <h6 class="today-title mb-0">Поделитесь идеями по улучшению МЭШ</h6>
+      </div>
+   </div>
+   <div class="col-2 mb-3">
+      <div class="border border-primary border-2 rounded-16 p-6 mb-2"><img src="img/3.png" alt="..."></div>
+      <div class="ps-2">
+         <p class="today mb-1">Сегодня</p>
+         <h6 class="today-title mb-0">Всероссийский день чтения</h6>
+      </div>
+   </div>
+   <div class="col-2 mb-3">
+      <div class="border border-white border-2 rounded-16 p-6 mb-2">  <img src="img/4.png" alt="..."></div>
+      <div class="ps-2">
+         <p class="today  mb-1">Сегодня</p>
+         <h6 class="today-title mb-0">Обновление дневника</h6>
+      </div>
+   </div>
+   <div class="col-2 mb-3">
+      <div class="border border-white border-2 rounded-16 p-6 mb-2">   <img src="img/1.png" alt="..."></div>
+      <div class="ps-2">
+         <p class="today  mb-1">Сегодня</p>
+         <h6 class="today-title mb-0">Что нового в поддержке</h6>
+      </div>
+   </div>
+   <div class="col-2 mb-3">
+      <div class="border border-primary border-2 rounded-16 p-6 mb-2">   <img src="img/2.png" alt="..."></div>
+      <div class="ps-2">
+         <p class="today  mb-1">Сегодня</p>
+         <h6 class="today-title mb-0">Поделитесь идеями по улучшению МЭШ</h6>
+      </div>
+   </div>
+   <div class="col-2 mb-3">
+      <div class="border border-white border-2 rounded-16 p-6 mb-2">  <img src="img/3.png" alt="..."></div>
+      <div class="ps-2">
+         <p class="today  mb-1">Сегодня</p>
+         <h6 class="today-title mb-0">Всероссийский день чтения</h6>
+      </div>
+   </div>
+</div>
+    </section>
+	 <section class="role">
+  <h2 class=" mb-4">Выберите свою роль </h2>
+<div class="row row-cols-1 row-cols-md-4 mb-3">
+   <div class="col">
+        <div class="card mb-3 rounded-12 border-0">
+		 <div class="card-body">
+          <div class="d-flex">
+  <div class="flex-shrink-0">
+    <img src="img/11.png" alt="...">
+  </div>
+  <div class="flex-grow-1 ms-3 position-relative">
+        <h5 class="card-title mb-0">Учитель </h5>
+   <p class="text-muted mb-0">Это вы</p>
+  
+   <span class="badge bg-secondary position-absolute bottom-0 text-grey ">32 статьи</span>
+  </div>
+
+  </div>
+</div>
+        </div>
+   </div>
+   <div class="col">
+        <div class="card mb-3 rounded-12 border-0">
+		 <div class="card-body">
+          <div class="d-flex">
+  <div class="flex-shrink-0">
+    <img src="img/22.png" alt="...">
+  </div>
+  <div class="flex-grow-1 ms-3 position-relative">
+        <h5 class="card-title mb-0">Ученик  </h5>
+  
+  
+   <span class="badge bg-secondary position-absolute bottom-0 text-grey ">32 статьи</span>
+  </div>
+
+  </div>
+</div>
+        </div>
+   </div>
+
+   <div class="col">
+        <div class="card mb-3 rounded-12 border-0">
+		 <div class="card-body">
+          <div class="d-flex">
+  <div class="flex-shrink-0">
+    <img src="img/33.png" alt="...">
+  </div>
+  <div class="flex-grow-1 ms-3 position-relative">
+        <h5 class="card-title mb-0">Родитель </h5>
+  
+   <span class="badge bg-secondary position-absolute bottom-0 text-grey ">32 статьи</span>
+  </div>
+
+  </div>
+</div>
+        </div>
+   </div>
+   <div class="col">
+        <div class="card mb-3 rounded-12 border-0">
+		 <div class="card-body">
+          <div class="d-flex">
+  <div class="flex-shrink-0">
+    <img src="img/44.png" alt="...">
+  </div>
+  <div class="flex-grow-1 ms-3 position-relative">
+        <h5 class="card-title mb-0">Разработчик контента </h5>
+
+  
+   <span class="badge bg-secondary position-absolute bottom-0 text-grey ">32 статьи</span>
+  </div>
+
+  </div>
+</div>
+        </div>
+   </div>
+      <div class="col">
+        <div class="card mb-3 rounded-12 border-0">
+		 <div class="card-body">
+          <div class="d-flex">
+  <div class="flex-shrink-0">
+    <img src="img/55.png" alt="...">
+  </div>
+  <div class="flex-grow-1 ms-3 position-relative">
+        <h5 class="card-title mb-0">Пользователь библиотеки </h5>
+
+  
+   <span class="badge bg-secondary position-absolute bottom-0 text-grey ">32 статьи</span>
+  </div>
+
+  </div>
+</div>
+        </div>
+   </div>
+      <div class="col">
+        <div class="card mb-3 rounded-12 border-0">
+		 <div class="card-body">
+          <div class="d-flex">
+  <div class="flex-shrink-0">
+    <img src="img/66.png" alt="...">
+  </div>
+  <div class="flex-grow-1 ms-3 position-relative">
+        <h5 class="card-title mb-0">Сотрудник </h5>
+
+  
+   <span class="badge bg-secondary position-absolute bottom-0 text-grey ">32 статьи</span>
+  </div>
+
+  </div>
+</div>
+        </div>
+   </div>
+</div>
+	 </section>
+<section class="serviсe rounded-12 bg-white px-3 pt-3 mb-4">
+  <h2 class="mt-2 mb-4">Сервисы </h2>
+<div class="row row-cols-1 row-cols-md-4 mb-1">
+   <div class="col">
+        <div class="card text-center mb-3 p-2 rounded-12">
+		 <div class="card-body">
+   <p class="mb-2">  <img src="img/111.png" alt="..."></p>
+        <h5 class="card-title mb-0">Дневник  </h5>
+  
+
+</div>
+        </div>
+   </div>
+   <div class="col">
+        <div class="card text-center mb-3 p-2 rounded-12">
+		 <div class="card-body">
+   <p class="mb-2">  <img src="img/222.png" alt="..."></p>
+        <h5 class="card-title mb-0">Портфолио  </h5>
+  
+
+</div>
+        </div>
+   </div>
+
+    <div class="col">
+        <div class="card text-center mb-3 p-2 rounded-12">
+		 <div class="card-body">
+    <p class="mb-2">   <img src="img/333.png" alt="..."></p>
+        <h5 class="card-title mb-0">Библиотека  </h5>
+  
+
+</div>
+        </div>
+   </div>   <div class="col">
+        <div class="card text-center mb-3 p-2 rounded-12">
+		 <div class="card-body">
+     <p class="mb-2">  <img src="img/444.png" alt="..."></p>
+        <h5 class="card-title mb-0">Журнал  </h5>
+  
+
+</div>
+        </div>
+   </div>  
+   <div class="col">
+        <div class="card text-center mb-3 p-2 rounded-12">
+		 <div class="card-body">
+  
+    <p class="mb-2">  <img src="img/555.png" alt="..."></p>
+        <h5 class="card-title mb-0">МЭШ id  </h5>
+  
+
+</div>
+        </div>
+   </div>
+   </div>
+
+ <h2 class="mb-3">Разделы </h2>
+<div class="row row-cols-1 row-cols-md-4 mb-3 ">
+   <div class="col">
+        <div class="card  mb-3 rounded-12">
+		 <div class="card-body">
+		   <div class="d-flex  align-items-center">
+  <div class="flex-shrink-0">
+<svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="38" height="38" rx="8" fill="#4C6EF5" fill-opacity="0.08"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M28.7627 13.7408C28.0845 13.4462 27.298 13.574 26.7574 14.0723L24.4163 16.239V14.666C24.4163 12.8742 22.9592 11.416 21.1663 11.416H11.4163C9.62449 11.416 8.16632 12.8742 8.16632 14.666V23.3327C8.16632 25.1256 9.62449 26.5827 11.4163 26.5827H21.1663C22.9592 26.5827 24.4163 25.1256 24.4163 23.3327V21.7608L26.7574 23.9263C27.1052 24.2481 27.5547 24.416 28.013 24.416C28.2654 24.416 28.52 24.3651 28.7627 24.2589C29.4224 23.9708 29.833 23.3544 29.833 22.6513V15.3485C29.833 14.6454 29.4224 14.029 28.7627 13.7408Z" fill="#0970FF"/>
+</svg>
+
+     </div>
+  <div class="flex-grow-1 ms-2">
+  <p class="font-weight-500 mb-0">Дистанционный урок  </p>
+  
+
+</div>
+        </div></div>
+        </div>
+   </div>
+   <div class="col">
+        <div class="card mb-3 rounded-12">
+		 <div class="card-body">
+		   <div class="d-flex  align-items-center">
+  <div class="flex-shrink-0">
+ <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="38" height="38" rx="8" fill="#4C6EF5" fill-opacity="0.08"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M11.7768 28.75H26.2232C27.3618 28.75 28.0853 27.5313 27.5401 26.5317L22.25 16.8333V9.75C22.25 9.47386 22.0262 9.25 21.75 9.25H16.25C15.9739 9.25 15.75 9.47386 15.75 9.75V16.8333L10.46 26.5317C9.91478 27.5313 10.6382 28.75 11.7768 28.75ZM24.9583 26.5833H22.4997L17.9167 17.375V11.4166H20.0833V17.375L24.9583 26.5833Z" fill="#0970FF"/>
+</svg>
+
+     </div>
+  <div class="flex-grow-1 ms-2">
+        <p class="font-weight-500 mb-0">Виртуальные лаборатории  </p>
+  
+
+</div>
+        </div>
+   </div>
+
+        </div>
+   </div>
+
+    <div class="col">
+        <div class="card mb-3 rounded-12">
+		 <div class="card-body">
+		   <div class="d-flex  align-items-center">
+  <div class="flex-shrink-0">
+ <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="38" height="38" rx="8" fill="#4C6EF5" fill-opacity="0.08"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M23.3329 20.0824C22.7349 20.0824 22.2495 19.5971 22.2495 18.9991C22.2495 18.4011 22.7349 17.9157 23.3329 17.9157C23.9309 17.9157 24.4162 18.4011 24.4162 18.9991C24.4162 19.5971 23.9309 20.0824 23.3329 20.0824ZM18.9995 20.0824C18.4015 20.0824 17.9162 19.5971 17.9162 18.9991C17.9162 18.4011 18.4015 17.9157 18.9995 17.9157C19.5975 17.9157 20.0829 18.4011 20.0829 18.9991C20.0829 19.5971 19.5975 20.0824 18.9995 20.0824ZM14.6662 20.0824C14.0682 20.0824 13.5829 19.5971 13.5829 18.9991C13.5829 18.4011 14.0682 17.9157 14.6662 17.9157C15.2642 17.9157 15.7495 18.4011 15.7495 18.9991C15.7495 19.5971 15.2642 20.0824 14.6662 20.0824ZM26.6598 11.3388C24.1855 8.86448 20.761 7.76056 17.263 8.30114C12.8462 8.99014 9.18453 12.5478 8.35795 16.9537C7.96037 19.0749 8.18895 21.2351 9.01987 23.1991C9.12603 23.4483 9.15853 23.6823 9.11628 23.8914L8.18787 28.5367C8.11637 28.8921 8.22795 29.2593 8.48362 29.515C8.68837 29.7197 8.96462 29.8324 9.24953 29.8324C9.31995 29.8324 9.39145 29.8259 9.46187 29.8107L14.1018 28.8834C14.3683 28.8325 14.6272 28.9072 14.7995 28.9787C16.7646 29.8096 18.9248 30.0371 21.0449 29.6406C25.4508 28.8141 29.0085 25.1524 29.6975 20.7356C30.2424 17.2386 29.1352 13.8142 26.6598 11.3388Z" fill="#0970FF"/>
+</svg>
+
+   </div>
+  <div class="flex-grow-1 ms-2">
+        <p class="font-weight-500 mb-0">Цифровой репетитор  </p>
+  
+
+</div>
+        </div>
+</div>
+        </div>
+   </div>   <div class="col">
+        <div class="card mb-3 rounded-12">
+		 <div class="card-body">
+		   <div class="d-flex  align-items-center">
+  <div class="flex-shrink-0">
+ <svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="38" height="38" rx="8" fill="#4C6EF5" fill-opacity="0.08"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M13.5834 26.5833C12.9865 26.5833 12.5 26.0969 12.5 25.5C12.5 24.9031 12.9865 24.4167 13.5834 24.4167H25.5V26.5833H13.5834ZM26.5834 9.25H13.5834C11.7915 9.25 10.3334 10.7082 10.3334 12.5V25.5C10.3334 27.2918 11.7915 28.75 13.5834 28.75H25.5H26.5834C27.1814 28.75 27.6667 28.2647 27.6667 27.6667V26.5833V24.4167V10.3333C27.6667 9.73533 27.1814 9.25 26.5834 9.25Z" fill="#0970FF"/>
+</svg>
+
+     </div>
+  <div class="flex-grow-1 ms-2">
+        <p class="font-weight-500 mb-0">Цифровое домашнее задание  </p>
+  
+
+</div>
+        </div>
+		 </div>
+        </div>
+   </div> 
+	<div class="col">
+        <div class="card mb-3 rounded-12">
+		 <div class="card-body">
+		   <div class="d-flex  align-items-center">
+  <div class="flex-shrink-0">
+<svg width="38" height="38" viewBox="0 0 38 38" fill="none" xmlns="http://www.w3.org/2000/svg">
+<rect width="38" height="38" rx="8" fill="#4C6EF5" fill-opacity="0.08"/>
+<path fill-rule="evenodd" clip-rule="evenodd" d="M11.4167 9.25H15.75C16.9449 9.25 17.9167 10.2217 17.9167 11.4167V15.75C17.9167 16.9449 16.9449 17.9167 15.75 17.9167H11.4167C10.2217 17.9167 9.25 16.9449 9.25 15.75V11.4167C9.25 10.2217 10.2217 9.25 11.4167 9.25ZM22.25 9.25H26.5833C27.7782 9.25 28.75 10.2217 28.75 11.4167V15.75C28.75 16.9449 27.7782 17.9167 26.5833 17.9167H22.25C21.0551 17.9167 20.0833 16.9449 20.0833 15.75V11.4167C20.0833 10.2217 21.0551 9.25 22.25 9.25ZM15.75 20.0833H11.4167C10.2217 20.0833 9.25 21.0551 9.25 22.25V26.5833C9.25 27.7782 10.2217 28.75 11.4167 28.75H15.75C16.9449 28.75 17.9167 27.7782 17.9167 26.5833V22.25C17.9167 21.0551 16.9449 20.0833 15.75 20.0833ZM22.25 20.0833H26.5833C27.7782 20.0833 28.75 21.0551 28.75 22.25V26.5833C28.75 27.7782 27.7782 28.75 26.5833 28.75H22.25C21.0551 28.75 20.0833 27.7782 20.0833 26.5833V22.25C20.0833 21.0551 21.0551 20.0833 22.25 20.0833Z" fill="#0970FF"/>
+</svg>
+
+     </div>
+  <div class="flex-grow-1 ms-2">
+        <p class="font-weight-500 mb-0">Интерактивная панель    </p>
+  
+
+</div>
+        </div>
+		 </div>
+        </div>
+   </div>  
+
+       </div>
+
+	 </section>
+<section class="news ">
+  <h2 class="mt-4 mb-4 pt-2">Новости <a href="#">См. все</a></h2>
+<div class="row row-cols-1 row-cols-md-3  mb-1">
+   <div class="col">
+<a href="#" class="card" >
+  <img src="img/image1.png" class="card-img-top" alt="...">
+  <div  class="card-body">
+  <p class="text-grey">Учителю и разработчику контента</p>
+    <h5 class="card-title h-56">Переход на дистанционное обучение для учеников</h5>
+    <p class="date text-grey d-flex">25 октября 2021 <span class=" ms-auto">1435</span></p> 
+</div>
+</a>
+   </div>
+   <div class="col">
+<a href="#" class="card" >
+  <img src="img/image2.png" class="card-img-top" alt="...">
+  <div  class="card-body">
+  <p class="text-grey">Учителю и разработчику контента</p>
+    <h5 class="card-title h-56">Переход на дистанционное обучение для учеников</h5>
+    <p class="date text-grey d-flex">25 октября 2021 <span class=" ms-auto">1435</span></p> 
+</div>
+</a>
+   </div>
+   <div class="col">
+<a href="#" class="card" >
+  <img src="img/image3.png" class="card-img-top" alt="...">
+  <div  class="card-body">
+  <p class="text-grey">Учителю и разработчику контента</p>
+    <h5 class="card-title h-56">Новое в журнале класса 2021</h5>
+    <p class="date text-grey d-flex">25 октября 2021 <span class=" ms-auto">1435</span></p> 
+</div>
+</a>
+   </div>
+
+
+   </div>
+
+  
+	 </section>
+  </main>
+  </div>
+  <footer class="pt-4 my-md-5  border-top">
+  <div class="container">
+    <div class="row align-items-end">
+      <div class="col-6 col-md">
+            <h5>Информационная поддержка</h5>
+        <p class="d-block mb-3 ">&copy; Департамент информационных технологий города Москвы<br>
+		&nbsp;&nbsp;&nbsp; Департамент образования и науки города Москвы</p>
+      </div>
+     <div class="col-3 ms-auto text-end">
+          <a href="#" class="text-decoration-none me-3"><svg width="20" height="12" viewBox="0 0 20 12" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M19.5294 0.832739C19.6776 0.362988 19.5294 0.021352 18.8727 0.021352H16.691C16.1403 0.021352 15.8861 0.320285 15.7379 0.640569C15.7379 0.640569 14.6153 3.37366 13.0478 5.14591C12.5395 5.65836 12.3065 5.82918 12.0311 5.82918C11.8828 5.82918 11.6922 5.65836 11.6922 5.18861V0.811387C11.6922 0.256227 11.5227 0 11.0568 0H7.62535C7.28644 0 7.07463 0.256226 7.07463 0.512454C7.07463 1.04626 7.85834 1.17438 7.94307 2.66904V5.91459C7.94307 6.61922 7.81598 6.74733 7.54062 6.74733C6.79927 6.74733 4.99884 3.99288 3.91858 0.854093C3.70677 0.234875 3.49495 0 2.94423 0H0.741353C0.105908 0 0 0.298931 0 0.619216C0 1.19573 0.741354 4.09964 3.45259 7.94306C5.25302 10.5694 7.81598 11.9786 10.1248 11.9786C11.5227 11.9786 11.6922 11.6584 11.6922 11.1246V9.13879C11.6922 8.49822 11.8193 8.39146 12.2641 8.39146C12.5818 8.39146 13.1537 8.56228 14.4458 9.82207C15.9285 11.3167 16.1827 12 17.0088 12H19.1905C19.8259 12 20.1224 11.6797 19.953 11.0605C19.7624 10.4413 19.0422 9.54448 18.1102 8.47687C17.6018 7.879 16.8393 7.21708 16.6063 6.8968C16.2886 6.46975 16.3733 6.29893 16.6063 5.91459C16.5851 5.91459 19.254 2.11388 19.5294 0.832739Z" fill="#101025"/>
+</svg>
+</a>  <a href="#" class="text-decoration-none me-3"><svg width="24" height="24" viewBox="0 0 24 24" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path d="M15.609 11.6944C16.1514 11.34 16.8844 11.4837 17.2461 12.0152C17.6077 12.5467 17.4611 13.2649 16.9186 13.6192C16.0991 14.1546 15.2656 14.5339 14.422 14.7516L14.3523 14.7668L14.2798 14.8477C15.005 15.6597 15.8602 16.6174 16.8455 17.7207L17.1522 18.0642C17.5816 18.5449 17.5318 19.2757 17.0412 19.6963C16.5505 20.117 15.8047 20.0683 15.3754 19.5875L12.7222 16.6161L10.0946 19.5993C9.69687 20.0506 9.02096 20.1272 8.53142 19.796L8.42954 19.7187C7.9361 19.3012 7.88154 18.5708 8.30768 18.0873C9.40702 16.84 10.3559 15.7635 11.1542 14.8577L11.0659 14.7627C10.2074 14.5468 9.35942 14.1638 8.52581 13.6192C7.98333 13.2649 7.83674 12.5467 8.19839 12.0152C8.56005 11.4837 9.293 11.34 9.83549 11.6944C10.8306 12.3444 11.7871 12.6568 12.7222 12.6568C13.6573 12.6568 14.6138 12.3444 15.609 11.6944Z" fill="#101025"/>
+<path d="M12.7222 11.5C10.375 11.5 8.47217 9.59721 8.47217 7.25C8.47217 4.90279 10.375 3 12.7222 3C15.0694 3 16.9722 4.90279 16.9722 7.25C16.9722 9.59721 15.0694 11.5 12.7222 11.5ZM12.7222 8.97158C13.673 8.97158 14.4437 8.2008 14.4437 7.25C14.4437 6.2992 13.673 5.52842 12.7222 5.52842C11.7714 5.52842 11.0006 6.2992 11.0006 7.25C11.0006 8.2008 11.7714 8.97158 12.7222 8.97158Z" fill="#101025"/>
+</svg>
+
+</a>  <a href="#" class="text-decoration-none me-3"><svg width="9" height="16" viewBox="0 0 9 16" fill="none" xmlns="http://www.w3.org/2000/svg">
+<path fill-rule="evenodd" clip-rule="evenodd" d="M6.39163 0.0060754L9 0.159262V2.7335H7.12958C6.4337 2.7335 5.86956 3.29047 5.86956 3.97765V6.43862H9L8.60867 9.38085H5.86956V16H2.73911V9.38085H0V6.43862H2.73911V3.40483C2.73911 1.52448 4.28279 0 6.18695 0C6.25523 0 6.32346 0.00206716 6.39163 0.0060754Z" fill="#101025"/>
+</svg>
+
+</a>
+<a href="#" type="button" class="btn btn-outline-dark">Написать нам</a>
+      </div>
+    </div>
+    </div>
+  </footer>
+</div>
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js" integrity="sha384-ka7Sk0Gln4gmtz2MlQnikT1wXgYsOg+OMhuP+IlRH9sENBO0LRn5q+8nbTov4+1p" crossorigin="anonymous"></script>
+    
+  </body>
+</html>
